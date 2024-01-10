@@ -1,0 +1,158 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;500;600;700;800;900;1000&family=Playfair+Display:wght@400;500;600;700;800;900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Nunito", sans-serif;
+  text-decoration: none;
+}
+
+.sidebar {
+  position: fixed;
+  width: 17vw;
+  height: 100vh;
+  box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.5);
+  padding: 10px 10px;
+}
+.sidebar header {
+  width: 100%;
+  height: 10vh;
+  display: flex;
+  padding: 0 10px;
+}
+.sidebar header p {
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+.sidebar .admin-tools {
+  width: 100%;
+  text-transform: capitalize;
+}
+.sidebar .admin-tools p {
+  padding: 0 0px 10px 10px;
+  font-size: 12px;
+  text-transform: capitalize;
+}
+.sidebar .admin-tools ul li {
+  list-style: none;
+  width: 100%;
+  padding: 14px 10px;
+  background: #fff;
+  border-radius: 10px;
+}
+.sidebar .admin-tools ul li i {
+  color: #000;
+  font-size: 1.1rem;
+}
+.sidebar .admin-tools ul li a {
+  color: #000;
+  font-size: 0.9rem;
+}
+.sidebar .admin-tools ul .active {
+  background: #000;
+}
+.sidebar .admin-tools ul .active i {
+  color: #fff;
+}
+.sidebar .admin-tools ul .active a {
+  color: #fff;
+}
+
+.container {
+  padding: 0px 80px 0px 300px;
+}
+.container nav {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 40px 0;
+}
+.container nav p:nth-child(1) {
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+.container nav p:nth-child(2) {
+  font-size: 2rem;
+  font-weight: bold;
+}
+.container nav .nav-features {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.container nav .nav-features .search-box form input {
+  border: none;
+  outline: none;
+  padding: 5px 10px;
+}
+.container nav .nav-features .notification-box {
+  padding: 10px;
+  background: #000;
+  border-radius: 100%;
+}
+.container nav .nav-features .notification-box i {
+  font-size: 1.5rem;
+  color: #fff;
+}
+.container .banner {
+  width: 100%;
+  height: 300px;
+  box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.5);
+  border-radius: 25px;
+  background: #0a0a0a;
+  padding: 100px 50px;
+}
+.container .banner .banner-text {
+  color: #fff;
+  text-transform: capitalize;
+}
+.container .banner .banner-text h2 {
+  font-size: 2rem;
+  margin: 0 0 5px 0;
+}
+.container .banner .banner-text p {
+  font-size: 15px;
+  margin: 0 0 5px 0;
+}
+.container .banner .banner-text .banner-button {
+  padding: 10px 20px;
+  background: royalblue;
+  width: -moz-fit-content;
+  width: fit-content;
+  border-radius: 10px;
+}
+.container .banner .banner-text .banner-button a {
+  color: #fff;
+}
+.container .container-data-buku {
+  width: 100%;
+}
+.container .container-data-buku i {
+  font-size: 1.5rem;
+}
+.container .container-data-buku table {
+  width: 100%;
+}
+.container .container-data-buku table tr:nth-child(1) {
+  box-shadow: none;
+  box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.5);
+  border-radius: 5px;
+}
+.container .container-data-buku table tr:nth-child(1) th {
+  padding: 10px 20px;
+  text-transform: capitalize;
+}
+.container .container-data-buku table td {
+  padding: 10px 20px;
+}
+.container .container-data-buku table td:nth-child(2) img {
+  width: 100px;
+  height: 150px;
+  border-radius: 10px;
+}
+.container .container-data-buku table td:nth-child(8) img {
+  width: 60px;
+  height: 100px;
+  border-radius: 5px;
+}/*# sourceMappingURL=dashboard.css.map */
